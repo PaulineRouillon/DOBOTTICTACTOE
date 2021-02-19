@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>index</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/swiper/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css?v=1">
+</head>
+<body>
+    <div class="full pr">
+        <div class="btn-group pa">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="image/zh.jpg" alt="" class="btn_img state_img pa">
+                <span class="btn_text" data-localize="btn.text">简体中文</span> <span class="caret pa"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                    <img src="image/zh.jpg" alt="" class="zh_img state_img pa">
+                    <a href="#">简体中文</a>
+                </li>
+                <li>
+                    <img src="image/en.jpg" alt="" class="en_img state_img pa">
+                    <a href="#">English</a>
+                </li>
+            </ul>
+        </div>
+            <img class="close_img pa" src="image/cross2.png" alt="">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤一:点击左边列表，可以看到API变为一个个可拖拽的模块</span>
+                    </div>
+                    <img src="image/Blockly-01.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤二:拖拽任意模块进入操作面板，脚本代码即时生成</span>
+                    </div>
+                    <img src="image/Blockly-02.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤三:再拖拽一个模块与之组合，并且可以编辑模块内容，通过模块之间的组合，完成所需功能</span>
+                    </div>
+                    <img src="image/Blockly-zh-03.png" alt="" class="lang-img">
+                </div>
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤四:点击开始，机械臂按照自上而下的模块顺序开始执行动作</span>
+                    </div>
+                    <img src="image/Blockly-04.png" alt="">
+                </div>
+            </div>
+            <div class="close_guide pa">
+                <label>
+                    <input name="" type="checkbox" value="" id="regText">
+                    <span class="c_g_text">以后不再显示此向导</span>
+                </label>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next bgc_cor"></div>
+            <div class="swiper-button-prev bgc_cor"></div>
+        </div>
+        <!--<div id="log_area"></div>-->
+    </div>
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="xjs/dobot.js"></script>
+    <script src="xjs/qwebchannel.js"></script>
+    <script src="lib/swiper/swiper-3.4.2.jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

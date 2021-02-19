@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>index</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/swiper/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css?v=1">
+</head>
+<body>
+    <div class="full pr">
+        <div class="btn-group pa">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="image/zh.jpg" alt="" class="btn_img state_img pa">
+                <span class="btn_text" data-localize="btn.text">简体中文</span> <span class="caret pa"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                    <img src="image/zh.jpg" alt="" class="zh_img state_img pa">
+                    <a href="#">简体中文</a>
+                </li>
+                <li>
+                    <img src="image/en.jpg" alt="" class="en_img state_img pa">
+                    <a href="#">English</a>
+                </li>
+            </ul>
+        </div>
+            <img class="close_img pa" src="image/cross2.png" alt="">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤一:Script模块使用Python脚本语言，适合所有编程爱好者</span>
+                    </div>
+                    <img src="image/script-zh-01.png" alt="" class="lang-img">
+                </div>
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤二:Dobot接口选择区附带接口说明功能，帮助用户快速上手</span>
+                    </div>
+                    <img src="image/script-02.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤三:双击对应的Dobot接口，文本编辑器会直接生成它</span>
+                    </div>
+                    <img src="image/script-03.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤四:文本编辑器内置高亮功能（Dobot接口高亮为绿色，Script框架关键字高亮为蓝色），是用户编程的好帮手</span>
+                    </div>
+                    <img src="image/script-04.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                   <div class="note">
+                       <span> 步骤五:Script内置Python解析器，使用运行控制按钮能简单进行代码的运行操作，运行日志会动态显示</span>
+                   </div>
+                    <img src="image/script-05.png" alt="">
+                </div>
+            </div>
+            <div class="close_guide pa">
+                <label>
+                    <input name="" type="checkbox" value="" id="regText">
+                    <span class="c_g_text">以后不再显示此向导</span>
+                </label>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next bgc_cor"></div>
+            <div class="swiper-button-prev bgc_cor"></div>
+        </div>
+        <!--<div id="log_area"></div>-->
+    </div>
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="xjs/dobot.js"></script>
+    <script src="xjs/qwebchannel.js"></script>
+    <script src="lib/swiper/swiper-3.4.2.jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

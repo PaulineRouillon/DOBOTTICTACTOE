@@ -1,0 +1,137 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    min-width: 750px;
+    min-height: 550px;
+}
+body{
+    background-color: #212434;
+}
+.full{
+    width: 100%;
+    height: 600px;
+}
+.btn-group{
+    height: 30px;
+    width: 130px;
+    top:16px;
+    right:65px;
+    z-index: 1200;
+}
+.btn {
+    width: 130px;
+    height: 30px;
+    padding-top: 5px;
+    background:rgba(255,255,255,0.6);
+    border:none;
+    color:rgba(255,255,255,0.8);
+}
+.btn_img{
+    top:8px;
+}
+.btn_text{
+    padding-left: 10px;
+}
+.btn-primary{
+    background:rgba(255,255,255,0.1);
+}
+.caret {
+    top:12px;
+    left:110px;
+}
+.dropdown-menu {
+    min-width: 130px;
+    background:rgba(255,255,255,0.1);
+    color:#fff;
+}
+.zh_img{
+    top:10px;
+}
+.en_img{
+    top:36px;
+}
+.dropdown-menu li a{
+    padding-left: 40px;
+    color:rgba(255,255,255,0.4);
+}
+.dropdown-menu li a:hover{
+    background:rgba(255,255,255,0.1);
+    color:rgba(255,255,255,0.8);
+}
+
+.swiper-container {
+    width: 100%;
+    height: 600px;
+    border:1px solid #89ff31;
+    border-radius: 20px;
+}
+.swiper-slide .note{
+    width: 74%;
+    height: 60px;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+.swiper-slide img{
+    width: 773px;
+    height: 520px;
+    border-radius: 20px;
+}
+.swiper-slide .swiper-slide-duplicate{
+    margin-right:0 !important;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 20px;
+}
+.swiper-slide span{
+    font-size: 14px;
+    color:#fff;
+    padding-left: 30px;
+}
+.close_img{
+    width: 32px;
+    height: 32px;
+    right: 18px;
+    top:16px;
+    z-index: 1200;
+}
+.swiper-pagination-bullet{
+    background: #fff;
+}
+.close_guide{
+    z-index: 1200;
+    width: 100%;
+    bottom:0;
+    left:50%;
+    margin-left:-45px;
+}
+.close_guide .c_g_text{
+    color:#989696;
+}
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    position: absolute;
+    top:-7px;
+    left:-26px;
+    color:#fff;
+}
+.swiper-button-prev{
+    width: 30px;
+    height: 60px;
+    background-image: url("../image/lt.png");
+}
+.swiper-button-prev:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.swiper-button-next{
+    width: 30px;
+    height: 60px;
+    background-image: url("../image/gt.png");
+}
+.swiper-button-next:hover{
+    background-color: rgba(255,255,255,0.2);
+}

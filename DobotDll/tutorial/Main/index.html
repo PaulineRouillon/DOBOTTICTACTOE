@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>index</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/swiper/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css?v=1">
+</head>
+<body>
+    <div class="full pr">
+        <div class="btn-group pa">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="image/zh.jpg" alt="" class="btn_img state_img pa">
+                <span class="btn_text" data-localize="btn.text">简体中文</span> <span class="caret pa"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                    <img src="image/zh.jpg" alt="" class="zh_img state_img pa">
+                    <a href="#">简体中文</a>
+                </li>
+                <li>
+                    <img src="image/en.jpg" alt="" class="en_img state_img pa">
+                    <a href="#">English</a>
+                </li>
+            </ul>
+        </div>
+            <img class="close_img pa" src="image/cross2.png" alt="">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤一:插入USB电缆,并点击Dobot Studio的连接,然后你就可以通过studio操作机械臂了</span>
+                    </div>
+                    <img src="image/mian-01.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤二:您可以通过Dobot Studio控制圆盘控制机械臂到你想要的位置，并点击存点保存这个目标位置</span>
+                    </div>
+                    <img src="image/mian-zh-02.png" alt="" class="lang-img-02">
+                </div>
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤三:当然你也还可以通过按住小臂的解锁按钮，拖动机械臂到目标位置，松开按钮后会自动记录一个点</span>
+                    </div>
+                    <img src="image/mian-zh-03.png" alt="" class="lang-img-03">
+                </div>
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤四:当你想操作的点都设置好之后，点击开始回放按键，机械臂移动您设置的点</span>
+                    </div>
+                    <img src="image/mian-zh-04.png" alt="" class="lang-img-04">
+                </div>
+                <div class="swiper-slide">
+                   <div class="note">
+                       <span> 步骤五:也许这些功能以及不能满足你的好奇心了,您可以打开高级模式，实现更多功能,详细设置参考帮助</span>
+                   </div>
+                    <img src="image/mian-zh-05.png" alt="" class="lang-img-05">
+                </div>
+            </div>
+            <div class="close_guide pa">
+                <label>
+                    <input name="" type="checkbox" value="" id="regText">
+                    <span class="c_g_text">以后不再显示此向导</span>
+                </label>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next bgc_cor"></div>
+            <div class="swiper-button-prev bgc_cor"></div>
+        </div>
+        <!--<div id="log_area"></div>-->
+    </div>
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="xjs/dobot.js"></script>
+    <script src="xjs/qwebchannel.js"></script>
+    <script src="lib/swiper/swiper-3.4.2.jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

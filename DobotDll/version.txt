@@ -1,0 +1,51 @@
+{
+    "DobotFM": {
+        "description": "1、增加特殊的IO功能；\n2、增加对发生报警后的停机及状态清除处理；\n3、上电后增加10秒的延时时间，黄灯闪烁提醒",
+        "fileName": "Dobot.hex",
+        "folder": "Firmware",
+        "name": "Dobot",
+        "version": "3.7.0"
+    },
+    "DobotStudio": {
+        "description": "1、修复3D打印程序库文件缺失BUG；\n2、应用程序添加数字证书",
+        "fileName": "DobotStudioV1.9.4.zip",
+        "folder": "Studio",
+        "name": "DobotStudio",
+        "version": "1.9.4"
+    },
+    "DobotTools": {
+        "description": "更新固件烧录工具。",
+        "fileName": "DobotToolsV1.2.0.zip",
+        "folder": "Tools",
+        "name": "DobotTools",
+        "version": "1.2.0"
+    },
+    "Magic Box FM": {
+        "description": "1、增加蓝牙功能；\n2、加入DobotSensor传感器套件",
+        "fileName": "MagicBox-V1.0.5.0_546740_B4570800_943390592C4EAD01B1B6A4FB37BC86D9.dfu",
+        "folder": "Firmware",
+        "name": "MagicBox",
+        "version": "1.0.5"
+    },
+    "Magic Box SystemFile": {
+        "description": "1. 更新Magic Box系统文件",
+        "fileName": "MagicBoxSystemFileV1.0.0.4.zip",
+        "folder": "MagicBoxSysFile",
+        "name": "MagicBoxSystemFile",
+        "version": "1.0.0.4"
+    },
+    "Magician Lite FM": {
+        "description": "1. 修复触发报警后接收点动指令误动问题",
+        "fileName": "MagicianLite-V2.0.7.0_119240_C8D10100_F05C96649DC6237FEFEFCC0EE76242CD.dfu",
+        "folder": "Firmware",
+        "name": "MagicianLite",
+        "version": "2.0.7"
+    },
+    "RepetierFM": {
+        "description": "1. 修复部分Bug.",
+        "fileName": "RepetierHost.hex",
+        "folder": "Firmware",
+        "name": "Repetier",
+        "version": "4.6.0"
+    }
+}

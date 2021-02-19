@@ -1,0 +1,46 @@
+[0213/152201.749:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0213/152202.100:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0220/153221:ERROR:data_pack.cc(122)] Bad data pack version: got 5, expected 4
+[0220/153221:ERROR:resource_bundle.cc(668)] Failed to load D:\py_dobot\PySide2Test\dist\qtwebengine_resources.pak
+Some features may not be available.
+[0220/153221:ERROR:data_pack.cc(122)] Bad data pack version: got 5, expected 4
+[0220/153221:ERROR:resource_bundle.cc(668)] Failed to load D:\py_dobot\PySide2Test\dist\qtwebengine_resources_100p.pak
+Some features may not be available.
+[0220/153221:ERROR:data_pack.cc(122)] Bad data pack version: got 5, expected 4
+[0220/153221:ERROR:resource_bundle.cc(668)] Failed to load D:\py_dobot\PySide2Test\dist\qtwebengine_resources_200p.pak
+Some features may not be available.
+[0220/153221:WARNING:resource_bundle.cc(291)] locale_file_path.empty() for locale 
+[0301/101628.588:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/101629.340:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/102123.006:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/102123.394:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/111605.899:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/111606.170:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/112052.025:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/112052.369:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/112322.723:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/112323.055:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/112601.416:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/112601.757:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/112921.955:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/112922.306:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/114729.602:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/114729.889:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/180802.103:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/180802.371:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/180822.036:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0301/180822.298:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0304/122214.863:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0304/122215.194:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0307/103804.982:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0307/103805.447:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0313/115030.411:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0313/115030.871:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0313/121537.967:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0313/121538.332:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0313/121917.796:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0313/121918.108:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0624/171202.981:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0624/171204.103:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0108/142231.724:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[0108/142233.432:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 

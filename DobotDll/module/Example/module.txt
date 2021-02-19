@@ -1,0 +1,1 @@
+This is an example which demonstrates how to integrate your own application into DobotStudio extension framework.

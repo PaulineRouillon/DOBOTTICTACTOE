@@ -1,0 +1,894 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <!-- Start book 越疆魔术师机械臂 -->
+<!-- Start book 越疆魔术师机械臂 -->
+    <head>
+        <!-- head:start -->
+<!-- head:start -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>1.回零校准 | 越疆魔术师机械臂</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.3">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-prismx/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-toc2/toc2.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-ace/ace.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-splitter/splitter.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-emphasize/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-sectionx/sectionx.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-toggle2/toggle.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-tbfed-pagefooter/footer.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-block-align/plugin.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="./2.调平校准.html" />
+    
+    
+    <link rel="prev" href="./魔术师功能/自动调平功能.html" />
+    
+
+        <!-- head:end -->
+<!-- head:end -->
+    </head>
+    <body>
+        <!-- body:start -->
+<!-- body:start -->
+        
+    <div class="book"
+        data-level="2.8.1"
+        data-chapter-title="1.回零校准"
+        data-filepath="回零校准.md"
+        data-basepath="."
+        data-revision="Thu Aug 24 2017 16:27:36 GMT+0800 (中国标准时间)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+                
+                <li>
+                    <a href="javascript:void(0)" target="_blank" onclick="openBrowser('http://cn.dobot.cc');" class="custom-link">越疆科技官网</a>
+                </li>
+            
+            
+
+            
+            <li class="divider"></li>
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="魔术师机械臂产品介绍/魔术师机械臂产品介绍.html">
+            
+                
+                    <a href="./魔术师机械臂产品介绍/魔术师机械臂产品介绍.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        魔术师机械臂产品介绍
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="魔术师机械臂产品介绍/机械臂部件说明.html">
+            
+                
+                    <a href="./魔术师机械臂产品介绍/机械臂部件说明.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        机械臂部件说明
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="魔术师机械臂产品介绍/机械臂末端套件介绍.html">
+            
+                
+                    <a href="./魔术师机械臂产品介绍/机械臂末端套件介绍.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        机械臂末端套件介绍
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="魔术师机械臂产品介绍/写字画画套件.html">
+            
+                
+                    <a href="./魔术师机械臂产品介绍/写字画画套件.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.1.</b>
+                        
+                        写字画画套件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="魔术师机械臂产品介绍/3D打印套件.html">
+            
+                
+                    <a href="./魔术师机械臂产品介绍/3D打印套件.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.2.</b>
+                        
+                        3D打印套件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="魔术师机械臂产品介绍/吸盘套件.html">
+            
+                
+                    <a href="./魔术师机械臂产品介绍/吸盘套件.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.3.</b>
+                        
+                        吸盘套件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="魔术师机械臂产品介绍/手爪套件.html">
+            
+                
+                    <a href="./魔术师机械臂产品介绍/手爪套件.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.4.</b>
+                        
+                        手爪套件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="魔术师机械臂产品介绍/激光套件.html">
+            
+                
+                    <a href="./魔术师机械臂产品介绍/激光套件.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.5.</b>
+                        
+                        激光雕刻套件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="魔术师机械臂产品介绍/自动调平套件.html">
+            
+                
+                    <a href="./魔术师机械臂产品介绍/自动调平套件.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.6.</b>
+                        
+                        自动调平套件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="魔术师机械臂产品介绍/手柄控制套件.html">
+            
+                
+                    <a href="./魔术师机械臂产品介绍/手柄控制套件.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.7.</b>
+                        
+                        手柄控制套件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="魔术师机械臂产品介绍/通信套件（蓝牙、WIFI）.html">
+            
+                
+                    <a href="./魔术师机械臂产品介绍/通信套件（蓝牙、WIFI）.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.8.</b>
+                        
+                        通信套件（蓝牙、WIFI）
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="魔术师机械臂产品介绍/机械臂扩展套件.html">
+            
+                
+                    <a href="./魔术师机械臂产品介绍/机械臂扩展套件.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        机械臂扩展套件
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="魔术师机械臂产品介绍/导轨.html">
+            
+                
+                    <a href="./魔术师机械臂产品介绍/导轨.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.1.</b>
+                        
+                        导轨
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="魔术师机械臂产品介绍/传送带.html">
+            
+                
+                    <a href="./魔术师机械臂产品介绍/传送带.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.2.</b>
+                        
+                        传送带
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="魔术师功能/魔术师可以完成那些令人激动的功能.html">
+            
+                
+                    <a href="./魔术师功能/魔术师可以完成那些令人激动的功能.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        魔术师可以完成那些令人激动的功能
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="魔术师功能/写字画画.html">
+            
+                
+                    <a href="./魔术师功能/写字画画.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        写字画画
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="魔术师功能/写字画画/1shi-yong-bi-lai-miao-hui-tu-an.html">
+            
+                
+                    <a href="./魔术师功能/写字画画/1shi-yong-bi-lai-miao-hui-tu-an.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.1.</b>
+                        
+                        使用笔来描绘图案
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1.1" data-path="魔术师功能/写字画画/1shi-yong-bi-lai-miao-hui-tu-an/diao-zheng-bi-hong-xia-ya.html">
+            
+                
+                    <a href="./魔术师功能/写字画画/1shi-yong-bi-lai-miao-hui-tu-an/diao-zheng-bi-hong-xia-ya.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.1.1.</b>
+                        
+                        调整笔触下压
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.2" data-path="更换笔.html">
+            
+                
+                    <a href="./更换笔.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.1.2.</b>
+                        
+                        更换笔
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="魔术师功能/写字画画/2shi-yong-ji-guang-diao-ke-tu-an.html">
+            
+                
+                    <a href="./魔术师功能/写字画画/2shi-yong-ji-guang-diao-ke-tu-an.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.2.</b>
+                        
+                        使用激光雕刻图案
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="魔术师功能/示教再现.html">
+            
+                
+                    <a href="./魔术师功能/示教再现.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        示教再现
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="魔术师功能/激光雕刻.html">
+            
+                
+                    <a href="./魔术师功能/激光雕刻.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        激光雕刻
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="使用激光灰度雕刻.html">
+            
+                
+                    <a href="./使用激光灰度雕刻.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.1.</b>
+                        
+                        使用激光灰度雕刻
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1.1" data-path="灰度效果调节.html">
+            
+                
+                    <a href="./灰度效果调节.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.1.1.</b>
+                        
+                        灰度效果调节
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="魔术师功能/3D打印.html">
+            
+                
+                    <a href="./魔术师功能/3D打印.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        3D打印
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="3D打印配件安装.html">
+            
+                
+                    <a href="./3D打印配件安装.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.1.</b>
+                        
+                        3D打印配件安装
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="2.切换3D打印软件.html">
+            
+                
+                    <a href="./2.切换3D打印软件.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.2.</b>
+                        
+                        切换3D打印软件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3" data-path="3.切换DobotStudio固件.html">
+            
+                
+                    <a href="./3.切换DobotStudio固件.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.3.</b>
+                        
+                        切换DobotStudio固件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.4" data-path="4.使用Repetier-Host打印3D模型.html">
+            
+                
+                    <a href="./4.使用Repetier-Host打印3D模型.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.4.</b>
+                        
+                        使用Repetier-Host打印3D模型
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="魔术师功能/Blockly图形化编程.html">
+            
+                
+                    <a href="./魔术师功能/Blockly图形化编程.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        Blockly图形化编程
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="魔术师功能/Script脚本编程.html">
+            
+                
+                    <a href="./魔术师功能/Script脚本编程.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        Script脚本编程
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="魔术师功能/鼠标控制.html">
+            
+                
+                    <a href="./魔术师功能/鼠标控制.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        鼠标控制
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="魔术师功能/自动调平功能.html">
+            
+                
+                    <a href="./魔术师功能/自动调平功能.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                        校准调平
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.8.1" data-path="回零校准.html">
+            
+                
+                    <a href="./回零校准.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.1.</b>
+                        
+                        1.回零校准
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2" data-path="2.调平校准.html">
+            
+                
+                    <a href="./2.调平校准.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.2.</b>
+                        
+                        2.调平校准
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="SDK开发/DobotSDK开发.html">
+            
+                
+                    <a href="./SDK开发/DobotSDK开发.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Dobot SDK 开发
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="FAQ/FAQ.html">
+            
+                
+                    <a href="./FAQ/FAQ.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        FAQ
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="售后以及服务/魔术师机械臂售后以及服务.html">
+            
+                
+                    <a href="./售后以及服务/魔术师机械臂售后以及服务.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        魔术师机械臂售后以及服务
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="参考资料/参考资料以及备注说明.html">
+            
+                
+                    <a href="./参考资料/参考资料以及备注说明.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        参考资料以及备注说明
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="javascript:void(0)" onclick="openBrowser('https://www.gitbook.com');" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >越疆魔术师机械臂</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="&#x56DE;&#x96F6;&#x6821;&#x51C6;">&#x56DE;&#x96F6;&#x6821;&#x51C6;</h1>
+<hr>
+<p>Magician&#x5728;&#x4E0A;&#x7535;&#x7684;&#x65F6;&#x5019;&#x9700;&#x8981;&#x6267;&#x884C;&#x4E00;&#x6B21;&#x56DE;&#x96F6;&#x7684;&#x64CD;&#x4F5C;&#x624D;&#x80FD;&#x8BC6;&#x522B;&#x6B63;&#x786E;&#x7684;&#x59FF;&#x6001;&#xFF0C;&#x8FD9;&#x65F6;&#x5019;<br>&#x56DE;&#x96F6;&#x7684;&#x64CD;&#x4F5C;&#x975E;&#x5E38;&#x7B80;&#x5355;&#xFF0C;&#x53EA;&#x9700;&#x8981;&#x5728;&#x754C;&#x9762;&#x4E2D;&#x70B9;&#x51FB;&#x56DE;&#x96F6;&#x6309;&#x94AE;&#x5373;&#x53EF;&#x5B9E;&#x73B0;</p>
+<p><img src="images/screenshot_1500900298912.png" alt=""> </p>
+<footer class="page-footer"><span class="copyright">&#x8D8A;&#x7586;&#x79D1;&#x6280; @ 2015-2017 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2017-08-10 17:57:49
+</span></footer>
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./魔术师功能/自动调平功能.html" class="navigation navigation-prev " aria-label="Previous page: 校准调平"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./2.调平校准.html" class="navigation navigation-next " aria-label="Next page: 2.调平校准"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-toc2/toc2.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-ace/ace/ace.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-ace/ace.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-splitter/splitter.js"></script>
+    
+
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sectionx/sectionx.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-toggle2/toggle.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-github-buttons/plugin.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"include-codeblock":{"template":"ace","unindent":true,"theme":"monokai","check":false,"edit":false,"lang":"","fixlang":false},"toc2":{"addClass":true,"className":"toc"},"prismx":{"css":["prismjs/themes/prism-solarizedlight.css"]},"chart":{"type":"highcharts"},"theme-default":{"showLevel":true},"sectionx":{"tag":"b"},"tbfed-pagefooter":{"copyright":"越疆科技 @ 2015-2017","modify_label":"件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"ace":{},"fontsettings":{"theme":"white","family":"sans","size":2},"splitter":{},"emphasize":{},"toggle-chapters":{},"toggle2":{},"block-align":{},"github-buttons":{},"markdown-parse-add-br":{},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
+<!-- body:end -->
+    </body>
+    <!-- End of book 越疆魔术师机械臂 -->
+<!-- End of book 越疆魔术师机械臂 -->
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>index</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/swiper/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css?v=1">
+</head>
+<body>
+    <div class="full pr">
+        <div class="btn-group pa">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="image/zh.jpg" alt="" class="btn_img state_img pa">
+                <span class="btn_text" data-localize="btn.text">简体中文</span> <span class="caret pa"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                    <img src="image/zh.jpg" alt="" class="zh_img state_img pa">
+                    <a href="#">简体中文</a>
+                </li>
+                <li>
+                    <img src="image/en.jpg" alt="" class="en_img state_img pa">
+                    <a href="#">English</a>
+                </li>
+            </ul>
+        </div>
+            <img class="close_img pa" src="image/cross2.png" alt="">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤一:安装写字画画套件，选择末端为笔</span>
+                    </div>
+                    <img src="image/xiezhihuahua-01.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤二:插入DobotStudio软件自带的图案或者手动输入文字内容 </span>
+                    </div>
+                    <img src="image/xiezhihuahua-zh-02.png" alt="" class="lang-img-02">
+                </div>
+                <div class="swiper-slide">
+                    <div class="note">
+                        <span>步骤三:点击设置，进入写字画画设置（可以设置相应的速度和加速度，以及抬笔高度）；按住小臂上的圆形按钮Unlock key不放并拖动小臂将笔尖调整至写字纸平面上</span>
+                    </div>
+                    <img src="image/xiezhihuahua-zh-03.png" alt="" class="lang-img-03">
+                </div>
+                <div class="swiper-slide">
+                   <div class="note">
+                       <span> 步骤四:点击AutoZ获取并保存当前的Z值（保存的Z值，即设置中的下降位置参数），点击开始按钮即可开始写字</span>
+                   </div>
+                    <img src="image/xiezhihuahua-04.png" alt="">
+                </div>
+            </div>
+            <div class="close_guide pa">
+                <label>
+                    <input name="" type="checkbox" value="" id="regText">
+                    <span class="c_g_text">以后不再显示此向导</span>
+                </label>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next bgc_cor"></div>
+            <div class="swiper-button-prev bgc_cor"></div>
+        </div>
+        <!--<div id="log_area"></div>-->
+    </div>
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="xjs/dobot.js"></script>
+    <script src="xjs/qwebchannel.js"></script>
+    <script src="lib/swiper/swiper-3.4.2.jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

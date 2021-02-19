@@ -1,0 +1,49 @@
+{
+    "Data": [
+        {
+            "Device_Type": "Magician",
+            "Device_UsingTotalTime": "276781616,223,114",
+            "MAC": "80:c5:f2:94:8d:1c",
+            "PC_Display": "1920,1080",
+            "PC_IP": "91.165.251.187",
+            "PC_Platform": "Windows-10-10.0.19041",
+            "Studio_Extension": "",
+            "Studio_Language": "en",
+            "Studio_SubVersion": "S212922003101715",
+            "Studio_Type": "Magician",
+            "Studio_Version": "1.9.4",
+            "address": "France Poitou-Charentes Chouppes",
+            "ak": "gYBteQUy8ej3CarMPkaPVYv28vUd6mrS",
+            "coord_type": 3,
+            "geotable_id": "1000002503",
+            "id": 0,
+            "latitude": "46.8116",
+            "longitude": "0.1642",
+            "title": "DT1418080412"
+        },
+        {
+            "Block_UseTime": "5",
+            "Draw_UseTime": "5",
+            "Exsample_UseTime": "None",
+            "Laser_UseTime": "5",
+            "LeapMotion_UseTime": "5",
+            "MAC": "80:c5:f2:94:8d:1c",
+            "Mouse_UseTime": "5",
+            "Playback_UseTime": "5",
+            "Printer_UseTime": "None",
+            "Script_UseTime": "5",
+            "Studio_UseTime": "None",
+            "address": "France Poitou-Charentes Chouppes",
+            "ak": "gYBteQUy8ej3CarMPkaPVYv28vUd6mrS",
+            "coord_type": 3,
+            "geotable_id": "1000002529",
+            "id": 0,
+            "latitude": "46.8116",
+            "longitude": "0.1642"
+        }
+    ],
+    "UploadStemp": [
+        1610112161.7643209,
+        1610112161.7643209
+    ]
+}
